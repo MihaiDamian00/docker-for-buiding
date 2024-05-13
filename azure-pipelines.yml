@@ -27,3 +27,4 @@ stages:
         dockerfile: '$(Build.SourcesDirectory)/alpine/hotspot/Dockerfile'
         tags: |
           $(tag)
+        buildContext: '../'
